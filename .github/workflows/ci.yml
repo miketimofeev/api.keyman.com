@@ -30,7 +30,7 @@ jobs:
         fail-fast: true
 
     #
-    # Configure IIS and setup site for running unit test
+    # Configure IIS and setup site for running unit tests
     #  * Installs IIS, CGI extensions, URLRewrite and configures to connect to PHP
     #  * Sets up http://127.0.0.1:8888 as host for tests
     #  * Enables detailed error reporting
